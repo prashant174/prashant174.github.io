@@ -1,0 +1,113 @@
+#nav-menu{
+    width: 100%;
+    height: 50px;
+    border: solid 1px green;
+}
+.cross{
+    margin-left: 170px;
+    margin-top: 65px;
+}
+#about{
+    border: 0px solid red;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: rgb(14, 14, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.about_section{
+    width: 80%;
+    height: 80%;
+    border: 0px solid white;
+    /* margin: auto; */
+}
+.about_section div:nth-child(1){
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+}
+.about_section div:nth-child(2){
+    width: 70%;
+    height: auto;
+    border: 0px solid red;
+    color:whitesmoke;
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+.about_section div:nth-child(3){
+    width: 50%;
+    height: auto;
+    border: 0px solid red;
+    color: aqua;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.about_section div:nth-child(3) button{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 900; */
+    color:#D9BB0E;
+    background-color: transparent;
+    border: #D9BB0E 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.about_section div:nth-child(3) button:hover{
+    /* background-color: */
+    background-color: rgb(25, 25, 48) ;
+}
+.about_section div:nth-child(3) button img{
+    /* height: 100%; */
+    width: 20px;
+    height: 17px;
+    
+}
+#skills{
+    width: 100%;
+    height: auto;
+   border: 0px solid red;
+   margin-top: 20px;
+   background: rgb(14, 14, 27);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0px;
+}
+.lang{
+    width: 50%;
+    height: auto;
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.lang div{
+    border: 0px solid green;
+    height: 140px;
+}
+.lang div img{
+    width: 80%;
+    height: 80px;
+    
+}
