@@ -87,7 +87,7 @@
     animation: animate 10s linear infinite;
 } */
 .cube{
-    position: relative;
+    /* position: relative; */
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
