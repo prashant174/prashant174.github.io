@@ -179,6 +179,7 @@ padding: 12px;
 .hem{
     margin-top: 10px;
     background-color: aqua;
+    position: fixed;
 }
 .cross{
     margin-left: 170px;
