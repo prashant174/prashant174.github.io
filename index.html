@@ -15,22 +15,37 @@
         <div id="nav-menu">
             <div>
                 <a href="./Prashant_Kumar_Yadav_Resume.pdf" download target="_blank">
-                    <button>
+                    <button class="nav-link resume">
                         <img src="./images/download (3).png" alt="">
                         Resume
                     </button>
                 </a>
-                <p>HOME</p>
-                <p>ABOUT</p>
-                <p>SKILLS</p>
-                <p>PROJECT</p>
-                <P>CONTACT</P>
+                <a href="">
+                    <p  class="nav-link home">HOME</p>
+                </a>
+                <a href="">
+                    <p class="nav-link about">ABOUT</p>
+                </a>
+                <a href="">
+                    <p  class="nav-link skills">SKILLS</p>
+                </a>
+                <a href="">
+                    <p class="nav-link projects">PROJECT</p>
+                </a>
+                <a href="">
+                    <P class="nav-link contact">CONTACT</P>
+                </a>
+                
+                
+                
+                
+                
             </div>
             <div>
                 <img src="./images/flamingtext__22639801765230083.png" alt="">
             </div>
         </div>
-    <div class="wrapper">
+    <div class="wrapper" id="home">
     <div class="container">
         
     <div class="sidebar sidebargo">
@@ -54,17 +69,17 @@
         <div class="infocontainer">
             <div class="devinfo">
                 <div class="hello">Hi I am</div>
-                <div class="name">Prashant Kumar Yadav</div>
-                <div class="about">developer</div>
+                <div class="name"  id="user-detail-name">Prashant Kumar Yadav</div>
+                <div class="about" id="user-detail-intro">developer</div>
                 <div class="aboutmore">I am a developer from India </div>
                 <div class="buttons">
                     <a href="./Prashant_Kumar_Yadav_Resume.pdf" download target="_blank">
-                    <button>Download cv</button></a>
+                    <button  id="resume-button-1">Download cv</button></a>
                     <a href="contact.html"><button>Contact Me</button></a>
                     
                 </div>
             </div>
-            <div class="devpic"><img src="./My project.png" alt="P"></div>
+            <div class="devpic" ><img src="./My project.png" alt="P" class="home-img"></div>
         </div>
     </div>
 </div>
@@ -93,7 +108,7 @@
         </div>
         <div>
             <a href="./Prashant_Kumar_Yadav_Resume.pdf" download target="_blank">
-                <button>
+                <button  id="resume-button-2">
                     <img src="./download (1).png" alt="">
                     Resume
                 </button>
@@ -114,40 +129,40 @@
 <div id="skills">
 <div class="lang">
     <div>
-        <img src="./html.png" alt="">
-        <h3>HTML</h3>
+        <img  class="skills-card-img" src="./html.png" alt="">
+        <h3 class="skills-card-name">HTML</h3>
     </div>
     <div>
-        <img src="./images/css.png" alt="">
-        <h3>CSS</h3>
+        <img  class="skills-card-img" src="./images/css.png" alt="">
+        <h3 class="skills-card-name">CSS</h3>
     </div>
     <div>
-        <img src="./images/js.png" alt="">
-        <h3>JavaScript</h3>
+        <img  class="skills-card-img" src="./images/js.png" alt="">
+        <h3 class="skills-card-name">JavaScript</h3>
     </div>
     <div>
-        <img src="./images/nodejs.png" alt="">
-        <h3>NodeJS</h3>
+        <img  class="skills-card-img" src="./images/nodejs.png" alt="">
+        <h3 class="skills-card-name">NodeJS</h3>
     </div>
     <div>
-        <img src="./images/expressJs.png" alt="">
-        <h3>ExpressJS</h3>
+        <img  class="skills-card-img" src="./images/expressJs.png" alt="">
+        <h3 class="skills-card-name">ExpressJS</h3>
     </div>
     <div>
-        <img src="./images/mongodb.png" alt="">
-        <h3>MongoDB</h3>
+        <img  class="skills-card-img" src="./images/mongodb.png" alt="">
+        <h3 class="skills-card-name">MongoDB</h3>
     </div>
     <div>
-        <img src="./images/git.png" alt="">
-        <h3>Git</h3>
+        <img  class="skills-card-img" src="./images/git.png" alt="">
+        <h3 class="skills-card-name">Git</h3>
     </div>
     <div>
-        <img src="./images/github.png" alt="">
-        <h3>GitHub</h3>
+        <img  class="skills-card-img" src="./images/github.png" alt="">
+        <h3 class="skills-card-name">GitHub</h3>
     </div>
     <div>
-        <img src="./images/vscode.png" alt="">
-        <h3>VScode</h3>
+        <img  class="skills-card-img" src="./images/vscode.png" alt="">
+        <h3 class="skills-card-name">VScode</h3>
     </div>
 </div>
 </div>
@@ -162,18 +177,22 @@
             </div>
             <div>
                 <div>
-                    <h2>SmatBot</h2>
-                    <p><span>SmatBot</span> helps in costomer support and management system</p>
+                    <h2 class="project-title">SmatBot</h2>
+                    <p  class="project-description"><span>SmatBot</span> helps in costomer support and management system</p>
                     <p><span>Features:</span> Home Page, Partners Page, Login Page, Signup Page etc. along with full responsiveness.</p>
-                    <p><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
-                    <button>
-                        <img src="./images/shuttle.png" alt="">
-                        Go Live
-                    </button>
+                    <p class="project-tech-stack"><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
+                    <a href="https://cheerful-baklava-253626.netlify.app" target="_blank">
+                        <button class="project-deployed-link">
+                            <img src="./images/shuttle.png" alt="">
+                            Go Live
+                        </button>
+                    </a>
+                    <a href="https://github.com/prashant174/utopian-wood-8919" target="_blank">
                     <button class="project-github-link" id="test1">
                         <img src="./github.png" alt="">
                         GitHub
                     </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -181,22 +200,24 @@
     <div class="project-card">
         <div>
             <div>
-                <img src="./images/Screenshot (6).png" alt="">
+                <img src="./images/Screenshot (8).png" alt="">
             </div>
             <div>
                 <div>
-                    <h2>SmatBot</h2>
-                    <p><span>SmatBot</span> helps in costomer support and management system</p>
-                    <p><span>Features:</span> Home Page, Partners Page, Login Page, Signup Page etc. along with full responsiveness.</p>
-                    <p><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
-                    <button>
+                    <h2 class="project-title">Lose it!</h2>
+                    <p  class="project-description"><span>Lose it</span> Daily base health routine check and calories monitoring system</p>
+                    <p><span>Features:</span> Home Page, Profile page ,Login/signup Page,landing page ,Calories Page etc. along with full responsiveness.</p>
+                    <p class="project-tech-stack"><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
+                    <a href="https://monumental-tiramisu-2ff05e.netlify.app" target="_blank">
+                    <button class="project-deployed-link">
                         <img src="./images/shuttle.png" alt="">
                         Go Live
-                    </button>
+                    </button></a>
+                    <a href="https://github.com/Atanu8250/snotty-wash-4238" target="_blank">
                     <button class="project-github-link" id="test">
                         <img src="./github.png" alt="">
                         GitHub
-                    </button>
+                    </button></a>
                 </div>
             </div>
         </div>
@@ -204,22 +225,26 @@
     <div class="project-card">
         <div>
             <div>
-                <img src="./images/Screenshot (6).png" alt="">
+                <img src="./images/Screenshot (10).png" alt="">
             </div>
             <div>
                 <div>
-                    <h2>SmatBot</h2>
-                    <p><span>SmatBot</span> helps in costomer support and management system</p>
-                    <p><span>Features:</span> Home Page, Partners Page, Login Page, Signup Page etc. along with full responsiveness.</p>
-                    <p><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
-                    <button>
+                    <h2 class="project-title">Fashion Trendz</h2>
+                    <p  class="project-description"><span>SmatBot</span> An e-commerce website for Fashion Trendz</p>
+                    <p><span>Features:</span> Home Page,Women/Men/Kids/Beuty Page,Cart Page,Checkout Page, Login Page, Signup Page etc. along with full responsiveness.</p>
+                    <p class="project-tech-stack"><span>Tech Stack:</span>HTML,CSS JavaScript, MongoDB, NodeJS, ExpressJS and Json server </p>
+                   <a href="https://melodic-churros-e6ddd9.netlify.app/" target="_blank">
+                    <button class="project-deployed-link">
                         <img src="./images/shuttle.png" alt="">
                         Go Live
                     </button>
+                    </a>
+                    <a href="https://github.com/srjizhere/melodic-love-4895" target="_blank">
                     <button class="project-github-link" id="test2">
                         <img src="./github.png" alt="">
                         GitHub
                     </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -231,11 +256,11 @@
             </div>
             <div>
                 <div>
-                    <h2>SmatBot</h2>
-                    <p><span>SmatBot</span> helps in costomer support and management system</p>
+                    <h2 class="project-title">SmatBot</h2>
+                    <p  class="project-description"><span>SmatBot</span> helps in costomer support and management system</p>
                     <p><span>Features:</span> Home Page, Partners Page, Login Page, Signup Page etc. along with full responsiveness.</p>
-                    <p><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
-                    <button>
+                    <p class="project-tech-stack"><span>Tech Stack:</span>HTML,CSS and JavaScript</p>
+                    <button class="project-deployed-link">
                         <img src="./images/shuttle.png" alt="">
                         Go Live
                     </button>
@@ -246,6 +271,41 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div id="contact">
+
+    <div class="contaact_tag">
+        <h1>CONTACTS</h1>
+    </div>
+    <div>
+        <a href="https://github.com/prashant174" target="_blank">
+            <div>
+                <div><img src="./images/github (1).png" alt=""></div>
+                <div><p>GitHub</p></div>
+              </div>
+        </a>
+        <a href="https://www.linkedin.com/in/prashant-kumar-yadav-318362233/" target="_blank">
+            <div>
+                <div><img src="./images/linkedin.png" alt=""></div>
+                <div><p>LinkedIN</p></div>
+              </div>
+        </a>
+        <div>
+            <div><img src="./images/viber.png" alt=""></div>
+            <div><p>8299625919</p></div>
+          </div>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank">
+            <div>
+                <div><img src="./images/email.png" alt=""></div>
+                <div><p>yprashant174@gmail.com</p></div>
+              </div>
+        </a>
+      
+      
+      
+      
     </div>
 </div>
 

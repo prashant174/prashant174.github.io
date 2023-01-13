@@ -276,3 +276,72 @@ align-items: center;
     border: #D9BB0E 1px solid;   
     color: #D9BB0E;
   }
+
+
+  #contact{
+    width: 100%;
+    height: auto;
+    background:rgb(14, 14, 27) ;
+    margin-top: 20px;
+    padding: 50px 0px;
+  }
+  #contact>div:nth-child(1){
+    width: fit-content;
+    border: 0px solid red;
+    margin: auto;
+    color: aqua;
+    font-family: sans-serif;
+  }
+  #contact>div:nth-child(2){
+    width: 40%;
+    height: 200px;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #contact>div:nth-child(2)>a div {
+    width: fit-content;
+    height: auto;
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10px;
+    margin: auto;
+    cursor: pointer;
+  }
+  #contact>div:nth-child(2)>div {
+    width: fit-content;
+    height: auto;
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns: 20% 70%;
+    gap: 10px;
+    margin: auto;
+    cursor: pointer;
+  }
+  #contact>div:nth-child(2)>div div{
+    border: 0px solid white;
+    height: auto;
+  }
+  #contact>div:nth-child(2)>div div img{
+    width: 25px;
+    height: 25px;
+  }
+  #contact>div:nth-child(2)>div div{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: fit-content;
+    margin-top: 15px;
+  }
+  #contact>div:nth-child(2)>a div div{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 25px;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: whitesmoke;
+  }
