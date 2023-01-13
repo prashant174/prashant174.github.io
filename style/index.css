@@ -3,10 +3,14 @@
 *{
     margin: 0;
     padding: 0;
-   
+  
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: black;
+    
 }
 #big{
     border: 0px solid rgb(60, 192, 34);
