@@ -235,11 +235,16 @@ align-items: center;
 }
 .project-card>div div:nth-child(2)>div button{
     background-color: transparent;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 5px;
     border: green 1px solid ;
     color: green;
     font-size: 17px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.project-card>div div:nth-child(2)>div button:hover{
+    background-color:rgb(23, 23, 36) ;
 }
 .project-card>div div:nth-child(2)>div button:nth-child(2){
     background-color: red;
@@ -249,9 +254,25 @@ align-items: center;
     width: 20px;
     height: 17px;
 }
-.project-github-link{
+/* .project-github-link{
     border: #D9BB0E 1px solid ;
     background: #D9BB0E;
     background-color: green;
 
+} */
+#test{
+  border: #D9BB0E 1px solid;   
+  color: #D9BB0E;
 }
+#test1{
+    border: #D9BB0E 1px solid;   
+    color: #D9BB0E;
+  }
+  #test2{
+    border: #D9BB0E 1px solid;   
+    color: #D9BB0E;
+  }
+  #test3{
+    border: #D9BB0E 1px solid;   
+    color: #D9BB0E;
+  }
