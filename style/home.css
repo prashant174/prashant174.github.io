@@ -346,9 +346,36 @@ align-items: center;
     text-decoration: none;
     color: whitesmoke;
   }
-  #git_hub{
+  #git_hub_a{
     width: 100;
-    height: 500px;
+    height: auto;
     background-color:rgb(14, 14, 27) ;
     margin-top: 20px;
+    padding: 50px 0px;
   }
+
+  #git_hub_a>div:nth-child(1){
+    width: fit-content;
+    border: 0px solid red;
+    margin: auto;
+    color: aqua;
+    font-family: sans-serif;
+  }
+
+  #git_hub_a>div:nth-child(2){
+     border: 0px solid red;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+
+   #git_hub_a>div:nth-child(2)>div{
+    border: 0px solid white;
+  
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+   }
+  
