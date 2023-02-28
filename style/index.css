@@ -18,11 +18,12 @@ body{
 .sidebar{
     border: 0px solid red;
     /* background-color: red; */
-    background-color: rgb(216, 216, 223);
+    background-color: black;
     /* width: 434px; */
     font-family: 'Source Sans Pro', sans-serif;
     height: 800px;
     transition: transform 0.3s ease-in;
+    
 }
 .sidebar nav{
     padding: 45px;
@@ -32,14 +33,28 @@ body{
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
+
 }
 .sidebar nav li a{
     text-decoration: none;
-    color: black;
+    color: aqua;
+}
+.sidebar nav li a>button{
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 18px;
+    /* font-weight: 900; */
+    color:aqua;
+    background-color: transparent;
+    border: aqua 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
 }
 .main{
     /* background-color: yellow; */
     width: 90vw;
+    /* border: 1px solid red; */
 }
 .container{
     display: flex;
@@ -50,8 +65,12 @@ body{
     height: 58vh;
     width: 80vw;
     margin: 144px auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
     display: flex;
     justify-content: space-around;
+    /* border: 1px solid red; */
 }
 .devinfo{
     display: flex;
@@ -179,15 +198,20 @@ padding: 12px;
     cursor: pointer;
     top: 10px;
     left: 10px;
+    display: none;
 }
 .hem{
     margin-top: 10px;
     background-color: aqua;
     position: fixed;
+    padding: 8px;
 }
 .cross{
     margin-left: 170px;
     margin-top: 10px;
+    color: #00c6ff;
+    background-color:aqua;
+    padding: 8px;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -202,18 +226,26 @@ padding: 12px;
 }
 
 @media (max-width:1200px) {
-    *{
+    /* *{
         background-color: none;
-    }
+    } */
     /* .sidebar{
         transform:translate(-443px,0);
         position: absolute;
     } */
     .sidebar{
-        position: absolute;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
-    .devpic{
+    .cross{
+        position: fixed;
+    }
+    .hemburger{
+display: block;
+    }
+    /* .devpic{
         display: none;
-    }
+    } */
 }
 

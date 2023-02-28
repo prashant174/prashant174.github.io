@@ -67,14 +67,17 @@ align-items: center;
 }
 #about{
     border: 0px solid red;
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: auto;
     margin-top: 20px;
-    background-color: rgb(14, 14, 27);
+    border-radius: 20px;
+    /* background-color: rgb(14, 14, 27); */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
+    box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
 }
 .about_section{
     width: 80%;
@@ -112,6 +115,8 @@ align-items: center;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     margin-top: 30px;
     
 }
@@ -137,20 +142,33 @@ align-items: center;
     
 }
 #skills{
-    width: 100%;
+    width: 80%;
     height: auto;
-   border: 0px solid red;
-   margin-top: 20px;
-   background: rgb(14, 14, 27);
-   display: flex;
+   /* border: 1px solid gray; */
+   margin: auto;
+   margin-top: 40px;
+   border-radius: 20px;
+   box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
+   /* background: rgb(14, 14, 27); */
+   /* display: flex; */
    justify-content: center;
    align-items: center;
    padding: 50px 0px;
 }
+#skills>#skills_tag{
+    border: 0px solid red;
+    width: fit-content;
+    margin: auto;
+    color: aqua;
+    font-family: sans-serif;
+}
+
 .lang{
-    width: 50%;
+    width: 75%;
     height: auto;
     border: 0px solid red;
+    margin: auto;
+    margin-top:30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 50px;
@@ -164,19 +182,72 @@ align-items: center;
 .lang div{
     border: 0px solid green;
     height: 140px;
+    box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
 }
 .lang div img{
     width: 80%;
     height: 80px;
     
 }
-#projects{
-    width: 100%;
+
+/* //############## */
+#tools{
+    width: 80%;
+    height: auto;
+   /* border: 1px solid gray; */
+   margin: auto;
+   margin-top: 40px;
+   border-radius: 20px;
+   box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
+   /* background: rgb(14, 14, 27); */
+   /* display: flex; */
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0px;
+}
+#tools>#tools_tag{
+    border: 0px solid red;
+    width: fit-content;
+    margin: auto;
+    color: aqua;
+    font-family: sans-serif;
+}
+
+.tool{
+    width: 75%;
     height: auto;
     border: 0px solid red;
-    background:rgb(14, 14, 27) ;
-    margin-top: 20px;
+    margin: auto;
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+   
+}
+
+.tool div{
+    border: 0px solid green;
+    height: 140px;
+    box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
+}
+.tool div img{
+    width: 80%;
+    height: 80px;
+    
+}
+#projects{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    border: 0px solid red;
+    /* background:rgb(14, 14, 27) ; */
+    margin-top: 40px;
     padding: 50px 0px;
+    box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
 }
 #projects>#project_tag{
     border: 0px solid red;
@@ -195,12 +266,13 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
+   
     padding: 10px 0px;
 }
 .project-card>div{
     width: 90%;
     height: auto;
-    border: 0px solid aqua;
+    border: px solid aqua;
     display: grid;
     grid-template-columns: 30% 70%;
     gap: 30px;
@@ -280,18 +352,73 @@ align-items: center;
 
 
   #contact{
-    width: 100%;
+    width: 80%;
     height: auto;
-    background:rgb(14, 14, 27) ;
+    /* background:rgb(14, 14, 27) ; */
     margin-top: 20px;
     padding: 50px 0px;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
   }
+  #contact-tag{
+    width: fit-content;
+    border: 0px solid red;
+    margin: auto;
+    color: aqua;
+    font-family: sans-serif;
+    border: 1px solid green;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #con-det{
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px; */
+    /* background-color: red; */
+  }
+  /* #con-det a>div{
+    border: 1px solid rgb(119, 47, 47);
+    display: flex;
+    border-radius: 10px;
+  }
+  #con-det a>div>div:nth-child(1){
+    width: 20%;
+    height: 50px;
+    padding: 5px;
+  } */
+  /* #con-det a>div>div:nth-child(2){
+    text-align: center;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding: 5px;
+  } */
+  /* #con-det a div>div:nth-child(1)>img{
+    width: 100%;
+height: 40px;
+  } */
+ /* #cont-det a>div{
+    background-color: red;
+ } */
+ 
   #contact>div:nth-child(1){
     width: fit-content;
     border: 0px solid red;
     margin: auto;
     color: aqua;
     font-family: sans-serif;
+    /* border: 1px solid white; */
   }
   #contact>div:nth-child(2){
     width: 40%;
@@ -299,6 +426,7 @@ align-items: center;
     border: 0px solid red;
     margin: auto;
     margin-top: 50px;
+    /* border: 1px solid white; */
   }
   #contact>div:nth-child(2)>a div {
     width: fit-content;
@@ -363,7 +491,7 @@ align-items: center;
   }
 
   #git_hub_a>div:nth-child(2){
-     border: 0px solid red;
+     border: px solid red;
     width: 80%;
     height: auto;
     margin: auto;
@@ -378,4 +506,344 @@ align-items: center;
     margin: auto;
     margin-top: 20px;
    }
+
+
+
+
+
+   @media all and (min-width:1080px) and (max-width:1200px){
+    #nav-menu{
+        display: none;
+    }
+        .infocontainer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            border: 0px solid red;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devinfo{
+            border: 0px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devpic{
+          display:none
+        }
+        .wrapper{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sidebar{
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .cross{
+            position: fixed;
+        }
+        .hemburger{
+    display: block;
+        }
+   }
+   @media all and (min-width:800px) and (max-width:1079px){
+    #nav-menu{
+        display: none;
+    }
+        .infocontainer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            border: 0px solid red;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devinfo{
+            border: 0px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devpic{
+          display:none
+        }
+        .wrapper{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lang{
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+        }
+        .tool{
+            grid-template-columns: repeat(3,1fr);
+            gap: 50px;
+        }
+        #project{
+            margin: auto;
+        }
+        .project-card{
+            margin: auto;
+        }
+        .project-card>div{
+            grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        margin: auto;
+        text-align: center;
+        border: 0px solid red;
+        }
+        .project-card>div div:nth-child(2)>div{
+            margin: auto;
+            height: auto;
+            padding-bottom: 10px;
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .buttons button{
+            width: fit-content;
+        }
+        .devinfo{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        .minabsec>p{
+            text-align: center;
+        }
+        .about_section div:nth-child(3){
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+        }
+        .sidebar{
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .cross{
+            position: fixed;
+        }
+        .hemburger{
+    display: block;
+        }
+   }
   
+   @media all and (min-width:400px) and (max-width:799px){
+    #nav-menu{
+        display: none;
+    }
+    #git_hub_a>div:nth-child(2) img{
+        width:100%
+                }
+        .infocontainer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            border: 0px solid red;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devinfo{
+            border: 0px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devpic{
+          display:none
+        }
+        .wrapper{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lang{
+            grid-template-columns: repeat(2,1fr);
+            gap: 50px;
+        }
+        .tool{
+            grid-template-columns: repeat(2,1fr);
+            gap: 50px;
+        }
+        #project{
+            margin: auto;
+        }
+        .project-card{
+            margin: auto;
+        }
+        .project-card>div{
+            grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        margin: auto;
+        text-align: center;
+        border: 0px solid red;
+        }
+        .project-card>div div:nth-child(2)>div{
+            margin: auto;
+            height: auto;
+            padding-bottom: 10px;
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .buttons button{
+            width: fit-content;
+        }
+        .devinfo{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        .minabsec>p{
+            text-align: center;
+        }
+        .about_section div:nth-child(3){
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+        }
+        #contact>div:nth-child(2){
+            border: 0px solid white;
+            width: fit-content;
+            margin: auto;
+            margin-top: 20px;
+            text-align: center;
+                    }
+                    .sidebar{
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                    }
+                    .cross{
+                        position: fixed;
+                    }
+                    .hemburger{
+                display: block;
+                    }
+   }
+
+
+   @media all and (min-width:100px) and (max-width:399px){
+    #nav-menu{
+        display: none;
+    }
+        .infocontainer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            border: 0px solid red;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devinfo{
+            border: 0px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .devpic{
+          display:none
+        }
+        .wrapper{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .lang{
+            grid-template-columns: repeat(1,1fr);
+            gap: 50px;
+        }
+        .tool{
+            grid-template-columns: repeat(1,1fr);
+            gap: 50px;
+        }
+        #project{
+            margin: auto;
+        }
+        .project-card{
+            margin: auto;
+        }
+        .project-card>div{
+            grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        margin: auto;
+        text-align: center;
+        border: 0px solid red;
+        }
+        .project-card>div div:nth-child(2)>div{
+            margin: auto;
+            height: auto;
+            padding-bottom: 10px;
+        }
+        .buttons{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .buttons button{
+            width: fit-content;
+        }
+        .devinfo{
+            text-align: center;
+        }
+        #about{
+            text-align: center;
+        }
+        .minabsec>p{
+            text-align: center;
+        }
+        .about_section div:nth-child(3){
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+        }
+        #contact{
+            width: 90%;
+            text-align: center;
+        }
+        /* #con-det{
+border: 1px solid red;
+        } */
+        #contact{
+            width: 100%;
+        }
+        #contact>div:nth-child(2){
+border: 0px solid white;
+width: fit-content;
+margin: auto;
+margin-top: 20px;
+text-align: center;
+        }
+        /* #contact-email{
+            margin-left: -100px;
+        } */
+        #git_hub_a>div:nth-child(2) img{
+width:100%
+        }
+        .sidebar{
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .cross{
+            position: fixed;
+        }
+        .hemburger{
+    display: block;
+        }
+       
+   }
+   

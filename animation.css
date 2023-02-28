@@ -4,14 +4,14 @@
     width: 100%;
     height: 800px;
     overflow: hidden;
-    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgb(5, 5, 71) 35%, rgb(26, 152, 177) 100%);
 }
 .box div{
     position: absolute;
     width: 60px;
     height: 60px;
     background-color: transparent;
-    border:6px solid rgba(255,255,255,0.8);
+    border:6px solid rgba(105, 161, 214, 0.8);
 }
 .box div:nth-child(1){
     top:12%;
@@ -51,7 +51,7 @@
 
 .box div:nth-child(7){
     top:60%;
-    left: 80%;
+    left: 90%;
     animation: animate 15s linear infinite;
 }
 
