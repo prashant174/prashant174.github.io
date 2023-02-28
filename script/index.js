@@ -18,3 +18,22 @@ document.querySelector(".hemburger").addEventListener("click",()=>{
        
     }
 })
+
+let ResumeBtn=document.getElementById("homeBtndiv")
+ResumeBtn.onclick=()=>{
+  window.open("./fw21_1261-Prashant-Kumar-Yadav-Resume.pdf", "_blank")
+}
+
+
+let navResume=document.getElementById("navResume")
+navResume.onclick=()=>{
+  window.open("./fw21_1261-Prashant-Kumar-Yadav-Resume.pdf", "_blank")
+}
+let sideR=document.getElementById("sideResume")
+sideR.onclick=()=>{
+  window.open("./fw21_1261-Prashant-Kumar-Yadav-Resume.pdf", "_blank")
+}
+let aboutR=document.getElementById("aboutResumepdf")
+aboutR.onclick=()=>{
+  window.open("./fw21_1261-Prashant-Kumar-Yadav-Resume.pdf", "_blank")
+}
