@@ -185,9 +185,9 @@ align-items: center;
     box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
 }
 .lang div img{
-    width: 80%;
-    height: 80px;
-    
+    width: 60%;
+    height: 60%;
+    padding-top: 10px;
 }
 
 /* //############## */
@@ -235,8 +235,9 @@ align-items: center;
     box-shadow: rgba(54, 154, 248, 0.35) 0px 5px 15px;
 }
 .tool div img{
-    width: 80%;
-    height: 80px;
+    width: 60%;
+    height: 60%;
+    padding-top: 10px;
     
 }
 #projects{
