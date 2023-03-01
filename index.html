@@ -389,16 +389,16 @@
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 <script>
-    GitHubCalendar(".calendar", "prashant174");
+    //GitHubCalendar(".calendar", "prashant174");
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "prashant174", { responsive: true });
 
     // Use a proxy
-    GitHubCalendar(".calendar", "prashant174", {
-       proxy (prashant174) {
-         return fetch(`https://your-proxy.com/github?user=${prashant174}`)
-       }
-    }).then(r => r.text())
+//     GitHubCalendar(".calendar", "prashant174", {
+//        proxy (prashant174) {
+//          return fetch(`https://your-proxy.com/github?user=${prashant174}`)
+//        }
+//     }).then(r => r.text())
 </script>
 <script src="./script/index.js"></script>
